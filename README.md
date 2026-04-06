@@ -1,21 +1,80 @@
-# ctf-writeups
-Personal CTF and security lab writeups (Bandit, TryHackMe, HTB, etc.)
+# CTF Writeups
 
-This repository contains my security lab and CTF writeups:
-- OverTheWire Bandit
-- TryHackMe (Pre-Security, Web)
-- HackTheBox machines
+OSCP 준비를 위한 HTB(HackTheBox)와 PG(Proving Grounds) 머신 writeup 모음입니다.
 
-## Structure
-- `bandit/` - OverTheWire Bandit levels
-- `tryhackme/` - TryHackMe guided rooms
-- `hackthebox/` - HTB machine writeups
-- `tools/` - cheat sheets & common commands
+## 📁 Structure
+Machines/
+├── HTB/
+│   ├── Linux/
+│   └── Windows/
+└── PG/
+├── Linux/
+└── Windows/
 
-## How to read
-Each writeup follows:
-- Summary
-- Recon commands
-- Exploitation steps
-- Post-exploitation
-- Mitigation
+## 🐧 HTB Linux
+| Machine | Difficulty |
+|---------|-----------|
+| Bashed | Easy |
+| Beep | Easy |
+| Cronos | Medium |
+| Irked | Easy |
+| Jarvis | Medium |
+| Keeper | Easy |
+| Lame | Easy |
+| Mirai | Easy |
+| Networked | Easy |
+| Nibbles | Easy |
+| Poison | Medium |
+| Postman | Easy |
+| Shocker | Easy |
+| Solidstate | Medium |
+| Sunday | Easy |
+| Tabby | Medium |
+| Tartarsauce | Medium |
+| Valentine | Easy |
+
+## 🪟 HTB Windows
+| Machine | Difficulty |
+|---------|-----------|
+| Active | Easy |
+| Arctic | Easy |
+| Bastion | Easy |
+| Blackfield | Hard |
+| Blue | Easy |
+| Bounty | Easy |
+| Cascade | Medium |
+| ChatterBox | Medium |
+| Cicada | Easy |
+| Devel | Easy |
+| Flight | Hard |
+| Forest | Easy |
+| Giddy | Medium |
+| Grandpa | Easy |
+| Granny | Easy |
+| Jeeves | Medium |
+| Jerry | Easy |
+| Monteverde | Medium |
+| Netmon | Easy |
+| Optimum | Easy |
+| Querier | Medium |
+| Return | Easy |
+| Sauna | Easy |
+| ServMon | Easy |
+| Sniper | Medium |
+
+## 🐧 PG Linux
+| Machine | Difficulty |
+|---------|-----------|
+| Bratarina | Easy |
+| ClamAV | Easy |
+| PayDay | Easy |
+| Pelican | Intermediate |
+
+## 🪟 PG Windows
+| Machine | Difficulty |
+|---------|-----------|
+| Algernon | Easy |
+
+## 📌 Notes
+- All HTB machines are **retired**
+- Writeups are for OSCP exam preparation
