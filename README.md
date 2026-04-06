@@ -1,15 +1,17 @@
 # CTF Writeups
 
-OSCP 준비를 위한 HTB(HackTheBox)와 PG(Proving Grounds) 머신 writeup 모음입니다.
+OSCP 준비를 위한 HTB(HackTheBox)와 PG(Proving Grounds) 머신 writeup 모음
 
 ## 📁 Structure
+```
 Machines/
 ├── HTB/
 │   ├── Linux/
 │   └── Windows/
 └── PG/
-├── Linux/
-└── Windows/
+    ├── Linux/
+    └── Windows/
+```
 
 ## 🐧 HTB Linux
 | Machine | Difficulty |
